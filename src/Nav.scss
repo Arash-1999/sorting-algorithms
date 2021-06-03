@@ -1,0 +1,37 @@
+.nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 0px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem 0;
+  transition: width .4s;
+  background: #efefef;
+  box-shadow: 3px -3px 3px 5px rgba(0, 0, 0, .2);
+
+  &__desc {
+    flex: 1;
+    padding: 1em 3em;
+    text-align: center;
+
+    & > p:nth-child(1) {
+      margin: 2em 0;
+      font-weight: 600;
+    }
+  }
+}
+
+.nav--open {
+  width: 60vw;
+}
+
+@media (max-width: 750px) {
+  .nav--open {
+    width: 100vw;
+  }
+}

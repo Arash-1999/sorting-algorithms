@@ -1,0 +1,49 @@
+@import "variables";
+
+header {
+  width: 100%;
+  text-align: center;
+  border-bottom: 3px solid #008000;
+  padding: 1rem 5%;
+  color: #008000;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__btn {
+  font-size: 1rem;
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  top: 2em;
+  cursor: pointer;
+  border: 3px solid $main;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.nav__icon {
+  display: inline-block;
+  width: 2em;
+  height: .3em;
+  background: $main;
+  position: relative;
+
+  &::before, &::after {
+    content: "";
+    background: $main;
+    width: 2em;
+    height: .3em;
+    position: absolute;
+    left: 0;
+  }
+  &::before {
+    top: .8em;
+  }
+  &::after {
+    bottom: .8em;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "insertion-sort": {
+    "bigO": "O(n^2)",
+    "desc": "Insertion sort is an efficient algorithm for sorting small number of elements.\n Its procedure is like sorting playing cards in hands.\n We start with an empty left hand and the cards face down to the table. We then remove one cart at a time from table and insert it into to the correct positon."
+  },
+  "merge-sort": {
+    "bigO": "O(n log(n))",
+    "desc": "It's a Recursive algorithm that means it solve the problem by call itself one or more time to solve subproblems.\n We can explain the entire procedure in this way:\n \t divide the whole number sequence into smaller sequences and sort them. and finnaly combine them and get the solution for porblem."
+  },
+  "bubble-sort": {
+    "bigO": "O(n^2)",
+    "desc": "Bubble sort is a popular, but ineffecient, sorting algorithms.\n It works by repeatedly swapping adjacent elements that are out of order."
+  },
+  "heap-sort": {
+    "bigO": "O(n log(n))",
+    "desc": "it's an in-place algorithm(like insertion sort, and unlike merge sort)\n it works with heaps(binary complete trees), find the largest element in every step and put it at the the end of our sequence."
+  },
+  "quick-sort": {
+    "bigO": "O(n^2)",
+    "desc": "this algorithm has a bad worst-case running time, but in real situations it becomes the best choice and can beat other algorithms.\n it works like merge sort, divide the problem into some smaller problems and solve them to find solution for problem."
+  }
+}
