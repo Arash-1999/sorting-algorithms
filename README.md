@@ -1,6 +1,6 @@
 ## Data vizualization for **Sorting Algorithms**
 
-presentin sort methods with d3 and react 
+presenting sort methods with d3 and react 
 
 - Insertion Sort
 - Bubble Sort
