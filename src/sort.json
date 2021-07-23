@@ -13,7 +13,7 @@
   },
   "heap-sort": {
     "bigO": "O(n log(n))",
-    "desc": "it's an in-place algorithm(like insertion sort, and unlike merge sort)\n it works with heaps(binary complete trees), find the largest element in every step and put it at the the end of our sequence."
+    "desc": "it's an in-place algorithm(like insertion sort, and unlike merge sort)\n it works with heaps(binary complete trees), find the largest element in every step and put it at the end of our sequence."
   },
   "quick-sort": {
     "bigO": "O(n^2)",
