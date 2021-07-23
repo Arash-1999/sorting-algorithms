@@ -1,5 +1,9 @@
 import React, { useRef, useEffect } from "react";
 
+// react components
+import Button from "./../Button/Button.js";
+
+// sorting and rndering chart modules
 import { draw } from "./render";
 import { insertionSort, bubbleSort, mergeSort, heapSort, quickSort } from "./sorts";
 
@@ -37,7 +41,7 @@ const Chart = (props) => {
   
   return (
     <section className="chart">
-      <button onClick={sort}>Sort</button>
+      <Button handleClick={sort}>start sorting</Button>
       <svg ref={mySvg}></svg>
     </section>
   );

@@ -1,4 +1,5 @@
 import "./Nav.scss";
+import Button from "./../Button/Button.js";
 
 const Nav = (props) => {
 
@@ -16,7 +17,7 @@ const Nav = (props) => {
         <option value="heap-sort">Heap Sort</option>
         <option value="quick-sort">Quick Sort</option>
       </select>
-      <button onClick={props.genNew}>Generate New</button>
+      <Button handleClick={props.genNew}>Generate New</Button>
       {props.description}
     </nav>
   );

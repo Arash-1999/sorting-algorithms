@@ -1,4 +1,7 @@
+@import "./../variables";
+
 .nav {
+  z-index: 100;
   position: fixed;
   right: 0;
   top: 0;
@@ -22,6 +25,19 @@
     & > p:nth-child(1) {
       margin: 2em 0;
       font-weight: 600;
+    }
+  }
+
+  &__selection {
+    outline: none;
+    border: 3px solid $main;
+    border-radius: 3px;
+    font-weight: 600;
+    padding: .5em 1em;
+    cursor: pointer;
+    
+    &:hover {
+      background: #eee;
     }
   }
 }

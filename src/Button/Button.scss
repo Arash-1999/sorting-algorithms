@@ -1,0 +1,21 @@
+@import "./../variables";
+
+.btn {
+  font: {
+    size: 1rem;
+    weight: 600;
+  }
+  text-transform: capitalize;
+  padding: .5em 1em;
+  outline: none;
+  border: 3px solid $main;
+  border-radius: .3px;
+  cursor: pointer;
+  transform: scale(.99);
+  margin: .5em 1em;
+
+  &:hover {
+    background: #ddd;
+    transform: scale(1);
+  }
+}

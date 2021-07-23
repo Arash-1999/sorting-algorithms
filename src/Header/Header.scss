@@ -3,9 +3,9 @@
 header {
   width: 100%;
   text-align: center;
-  border-bottom: 3px solid #008000;
+  border-bottom: 3px solid $main;
   padding: 1rem 5%;
-  color: #008000;
+  color: $main;
   font-size: 1.4rem;
   display: flex;
   align-items: center;
