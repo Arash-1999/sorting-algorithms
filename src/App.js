@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 import Chart from "./Chart/Chart";
-import Header from "./Header";
-import Nav from "./Nav";
+import Header from "./Header/Header";
+import Nav from "./Nav/Nav";
 
 import Sorts from "./sort.json";
 
